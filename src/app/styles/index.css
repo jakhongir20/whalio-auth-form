@@ -1,0 +1,25 @@
+@import "base-icon.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --color-default-bg: #DFE2E6;
+    --color-default-text: #111214;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer base {
+  body {
+    @apply text-black;
+    font-family: Inter, sans-serif;
+  }
+}
+
